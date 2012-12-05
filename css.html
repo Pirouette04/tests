@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		
+		<title>HTML5 Example</title>
+
+		<script src="js/TweenMax.min.js"></script>
+
+		<script>
+
+			function init() {
+				var b = document.getElementById("box");
+				b.style.left = (window.innerWidth * 0.5 - 100) + "px";
+				b.style.top = (window.innerHeight * 0.5 - 100) + "px";
+			}
+
+		</script>
+
+		<style type="text/css">
+
+			#box {
+				width: 200px;
+				height: 200px;
+				background-color: #f9276c;
+				position: absolute;
+			}
+
+		</style>
+
+	</head>
+
+	<body onload="init()">
+		
+		<div id="box"></div>
+		
+	</body>
+
+</html>
